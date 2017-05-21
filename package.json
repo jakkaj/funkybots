@@ -1,0 +1,33 @@
+{
+  "name": "funkynode",
+  "version": "1.0.0",
+  "description": "Sample showing a method of working with TypeScript based Azure Functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakkaj/funkynode.git"
+  },
+  "keywords": [
+    "Azure",
+    "Functions",
+    "Node",
+    "TypeScript",
+    "k-scratch",
+    "remote"
+  ],
+  "author": "jakkaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakkaj/funkynode/issues"
+  },
+  "homepage": "https://github.com/jakkaj/funkynode#readme",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "gulp": "^3.9.1",
+    "gulp-tsc": "^1.3.2",
+    "typescript": "^2.3.2"
+  }
+}
