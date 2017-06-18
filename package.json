@@ -14,9 +14,7 @@
     "Azure",
     "Functions",
     "Node",
-    "TypeScript",
-    "k-scratch",
-    "remote"
+    "TypeScript"
   ],
   "author": "jakkaj",
   "license": "MIT",
@@ -29,5 +27,8 @@
     "gulp": "^3.9.1",
     "gulp-tsc": "^1.3.2",
     "typescript": "^2.3.2"
+  },
+  "dependencies": {
+    "inversify": "^4.1.1"
   }
 }
