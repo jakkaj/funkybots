@@ -4,6 +4,11 @@ var ava = require('gulp-ava');
 var del = require('del');
 var dest_test = "output/test";
 var fs = require('fs');
+var run = require('gulp-run');
+
+gulp.task('watcher', function(){
+  
+})
 
 gulp.task('test',["compile:tests"], function() {
     return gulp.src(dest_test + '/runTests/*.js')

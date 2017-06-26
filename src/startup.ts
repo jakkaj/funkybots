@@ -1,3 +1,6 @@
+import "reflect-metadata";
+import { Container } from "inversify"
+import { ILogService, contractSymbols } from "./contract/contracts";
 
 export class startup {
 
@@ -6,7 +9,7 @@ export class startup {
     constructor() {
         this.container = new Container();
 
-        this.container.bind<contracts.IConfigService>(contracts.tContracts.IConfigService).
+        this.container.bind<ILogService>(contractSymbols.ILogService).
             to(configService).inSingletonScope();
     }
 }

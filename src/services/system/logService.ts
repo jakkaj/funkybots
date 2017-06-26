@@ -7,10 +7,7 @@ import * as contracts from "../../contract/contracts";
 class logService implements ILogService {
     
     private _logCallback:(logMessage:string) => null;
-
-    constructor(@inject(contracts.contractSymbols.ILogService) logService:contracts.ILogService) {
-            
-    }
+  
 
     public setLogCallback(callback:(logMessage:string) => any){
         this._logCallback = callback;    
@@ -20,3 +17,5 @@ class logService implements ILogService {
         this._logCallback(logMessage);
     }
 }
+
+export {logService};

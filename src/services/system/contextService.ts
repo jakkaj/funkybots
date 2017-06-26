@@ -12,7 +12,7 @@ class contextService{
     }
 
     public bootAzureFunctions(context:any){
-
+        
     }
 
     public get context():any{
